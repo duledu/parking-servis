@@ -1,0 +1,439 @@
+@import "partials/fonts";
+.open>.dropdown-menu{
+    background:linear-gradient(to right, rgba(0, 0, 51, 0.4), rgba(77, 166, 255, 0.4));
+}
+.dropdown-menu {
+
+    padding: 20px;
+
+    font-size: 18;
+
+
+}
+
+.dropdown-menu>li>a{
+
+  color: white;
+}
+.dropdown-menu>li>a:hover{
+    background: none;
+    font-size: 16px;
+    color: #ff5c33 !important;
+
+}
+
+
+
+
+.dropdown-menu a:hover {
+    color:#ff5c33;
+    border-radius: 20%;
+    text-decoration: underline !important;
+
+}
+
+
+
+
+.navbar {
+    background: linear-gradient(to right, #000033, #4da6ff);
+    border-bottom: solid 4px #ff5c33;
+    margin-bottom: 0;
+
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background: none;
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+
+
+
+
+.navbar-collapse {
+    color: white;
+}
+
+
+
+.navbar-header .navbar-brand {
+    color: white;
+    font-size: 36px;
+    margin-top: 40px;
+
+}
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background: none;
+
+}
+
+.nav > li > a {
+    padding: 15px 10px;
+
+
+}
+
+.fas .fa-mobile-alt{
+  margin-left: 5px;
+}
+
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #ff5c33;
+}
+.navbar-default .navbar-nav > .open > a{
+    color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: white;
+}
+
+
+.navbar-default .navbar-nav > .open > a:hover{
+    color: #ff5c33;
+}
+
+
+
+
+
+
+
+
+// section
+
+.showcase{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://drive.google.com/uc?id=1HfYMl4TecNy13cv5z4--cYH5u_NS5FU3) no-repeat 0 -400px;
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+}
+
+
+//pocetna
+
+body{
+    background-image: url(https://drive.google.com/uc?id=14QkMExhWPTVnIr74gDlPQ0tYuCorQaMx);
+}
+.container{
+  margin-top: 25px;
+
+
+.pocetna{
+  text-align: center;
+  .mob{
+    width: 90px;
+    height: 120;
+  }
+  .mob1{
+    width: 90px;
+    height: 90px;
+
+  }
+  h3{
+    font-family: 'Abril Fatface', cursive;
+  }
+
+   }
+ }
+
+
+
+ //O nama
+
+
+
+.o-nama{
+  .onama{
+    background: linear-gradient(to right, #000033, #4da6ff);
+    margin-bottom: 20px;
+    border-top: 3px solid #ffc33;
+    p{
+      font-family: 'Judson', serif;
+      font-size: 20px;
+      margin-left: 10px;
+      color: white;
+    }
+  }
+  .onama3{
+    background: linear-gradient(to right, #000033, #4da6ff);
+    border: solid 2px #ff5c33;
+    caption{
+      color: white;
+      text-align: center;
+    }
+    table{
+      color: white;
+      margin-left: 30px;
+      margin-top: 10px;
+
+      th{
+        text-align: center;
+      }
+    td{
+      border: solid 2px white;
+      border-collapse: collapse;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      padding: 2px;
+
+    }
+
+    }
+    .crvena{
+      background-color: red;
+    }
+    .zuta{
+      background-color: yellow;
+      color: black;
+    }
+
+.mapa1{
+
+  margin: 10px 15px 10px 0px;
+
+    }
+
+  }
+}
+
+//Kontakt
+
+
+
+
+.kontakt{
+  margin-bottom: 150px;
+
+  h1{
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  h2{
+    font-family: 'Abril Fatface', cursive;
+  }
+  h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    margin-bottom: 55px;
+  }
+  p{
+    font-family: 'Judson', serif;
+    font-size: 18px;
+  }
+  .email{
+    font-size: 20px;
+    color:blue;
+
+  }
+
+}
+
+
+// SMS
+
+
+
+.sms{
+
+  margin-bottom: 150px;
+  h1{
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+  }
+p{
+  font-family: 'Judson', serif;
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-top: 20px;
+
+}
+.kratbr{
+  font-size:28px;
+  color: white;
+  font-weight:bold;
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 10%;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+iframe{
+  border: solid 3px #ccccff;
+
+}
+.kratbr1{
+  @extend .kratbr;
+ color: black;
+  background-color: rgba(255, 255, 0, 1);
+
+}
+
+
+
+}
+
+
+//Karta
+.showcasekarta{
+  background-image: url(https://drive.google.com/uc?id=14QkMExhWPTVnIr74gDlPQ0tYuCorQaMx);
+  h1{
+    font-family: 'Abril Fatface', cursive;
+  }
+  p{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    font-family: 'Judson', serif;
+
+  }
+  .kartaprimer{
+  width: 400px;
+  height: 550px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px;
+  }
+
+}
+
+
+
+
+//CENOVNIK
+
+
+.cenovnik{
+  table{
+
+            border: solid 2px black;
+            color: black;
+            box-shadow: 0 0 10px;
+
+            thead{
+              tr{
+                background: linear-gradient(to right, #000033, #4da6ff);
+                color: white;
+                font-size: 16px;
+                padding: 5px;
+              }
+            }
+            th{
+              text-align: center;
+
+            }
+
+          td{
+            border: solid 1px black;
+            text-align: center;
+            font-size: 16px;
+            padding: 2px;
+
+          th{
+           boreder: solid 1px black;
+
+
+           tr{
+             boreder: solid 1px black;
+
+
+             }
+           }
+          }
+         }
+
+         tr{
+           &:nth-child(even){
+             background-color: #ccccff;
+         }
+         .crvena{
+           text-align: left;
+         }
+         .zuta{
+           text-align: left;
+         }
+       }
+       p{
+         margin-top: 30px;
+         font-weight: 600;
+         font-size: 18px;
+         font-family: 'Judson', serif;
+       }
+
+       .ppk{
+         width: 360px;
+         height: 420px;
+         box-shadow: 0 0 6px;
+       }
+
+
+ }
+
+//footer
+
+footer {
+
+    padding: 20px;
+    margin-top: 0px;
+    color: #ffffff;
+    background: linear-gradient(to right, #000033, #4da6ff);
+    text-align: left;
+    border-top: #ff5c33 3px solid;
+    .ds{
+     font-family: 'Marck Script', cursive;
+     font-size: 18px;
+    }
+
+}
