@@ -184,20 +184,24 @@ body{
 
 
 .o-nama{
+  background: linear-gradient(to right, #000033, #4da6ff);
+
   .onama{
     background: linear-gradient(to right, #000033, #4da6ff);
-    margin-bottom: 20px;
     border-top: 3px solid #ffc33;
+
     p{
       font-family: 'Judson', serif;
       font-size: 20px;
       margin-left: 10px;
       color: white;
+
     }
   }
   .onama3{
     background: linear-gradient(to right, #000033, #4da6ff);
     border: solid 2px #ff5c33;
+    border-bottom: none;
     caption{
       color: white;
       text-align: center;
