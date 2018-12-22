@@ -443,10 +443,17 @@ footer {
       float: right;
     }
     .footer-info{
+      position: relative;
 
       a{
         color: #ff5c33;
+        line-height: 30px;
+        font-size: 18px;
+
+
       }
+
+
     }
 
 }
@@ -460,5 +467,6 @@ footer {
       font-size: 20px;
     }
   }
+  
 
 }
