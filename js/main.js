@@ -1,1 +1,4 @@
-var vaki = "Vaki i Uci su mnogo dobri momci";
+$(".back-to-top").click(function () {
+  $("html, body").animate({scrollTop:0}, 1000)
+
+});

@@ -360,6 +360,7 @@ iframe{
 
 
 .cenovnik{
+  position: relative;
   table{
 
             border: solid 2px black;
@@ -423,12 +424,14 @@ iframe{
        }
 
 
+
+
  }
 
 //footer
 
 footer {
-
+position: relative;
     padding: 20px;
     margin-top: 0px;
     color: #ffffff;
@@ -455,7 +458,28 @@ footer {
 
 
     }
-
+    .back-to-top,{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-image: url("../img/back-to-top-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    position: absolute;
+    right: 60px;
+    bottom: 100px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    &:hover{
+      background-image: url("../img/back-to-top-blue.png");
+      background-color: white;
+    }
+ }
 }
 @media all and (max-width: 600px){
   .showcase{
@@ -467,6 +491,15 @@ footer {
       font-size: 20px;
     }
   }
-  
 
+
+}
+
+@media all and (max-width: 400px){
+  footer{
+    .back-to-top{
+      right: 30px;
+      bottom: 170px;
+    }
+  }
 }
