@@ -173,6 +173,19 @@ body{
   h3{
     font-family: 'Abril Fatface', cursive;
   }
+  .poruka, .karta, .price{
+    p{
+      -webkit-transition: all .3s;
+          -moz-transition: all .3s;
+          transition: all .3s;
+
+        &:hover{
+          opacity: .5;
+
+        }
+    }
+
+  }
 
    }
  }
@@ -481,6 +494,9 @@ position: relative;
     }
  }
 }
+
+
+
 @media all and (max-width: 600px){
   .showcase{
     h1{
