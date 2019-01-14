@@ -199,6 +199,7 @@ body{
 .o-nama{
   background: linear-gradient(to right, #000033, #4da6ff);
 
+
   .onama{
     background: linear-gradient(to right, #000033, #4da6ff);
     border-top: 3px solid #ffc33;
@@ -211,6 +212,7 @@ body{
       text-align: center;
 
     }
+
 
   }
   .onama3{
@@ -253,6 +255,11 @@ body{
   margin: 10px 15px 10px 0px;
 
     }
+    .mapaa{
+      cursor: zoom-in;
+    }
+
+
 
 
   }
@@ -529,4 +536,12 @@ position: relative;
       display: inline-block;
     }
   }
+}
+@media all and (max-width: 768px){
+  footer{
+    .back-to-top1{
+      display: inline-block;
+    }
+  }
+
 }
