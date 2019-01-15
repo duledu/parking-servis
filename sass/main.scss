@@ -59,6 +59,7 @@
 
 .navbar-collapse {
     color: white;
+    margin-bottom: 10px;
 }
 
 
@@ -123,7 +124,7 @@
   p{
     font-size: 18px;
     text-align: center;
-    margin-top: 5px;
+    padding: 10px;
     color: #ff5c33;
   }
 }
@@ -550,5 +551,7 @@ position: relative;
       display: inline-block;
     }
   }
-
+.navbar-header{
+  margin-bottom: 15px;
+}
 }
