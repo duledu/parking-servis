@@ -119,7 +119,14 @@
 }
 
 
-
+.navbar-brand{
+  p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    color: #ff5c33;
+  }
+}
 
 
 
@@ -202,7 +209,7 @@ body{
 
   .onama{
     background: linear-gradient(to right, #000033, #4da6ff);
-    border-top: 3px solid #ffc33;
+    border-top: 3px solid #ff5c33;
 
     p{
       font-family: 'Judson', serif;

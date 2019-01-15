@@ -1,4 +1,24 @@
-var mapa = document.querySelector('mapa1')
+var brand = document.querySelector('.brandText');
+var text = "Bujanovac";
+
+function typing() {
+  var brandtext = text.split("");
+  var loop = setInterval(function () {
+    if (brandtext.length !== 0) {
+      brand.innerHTML += brandtext.shift();
+
+
+    }else{
+      clearInterval(loop);
+    }
+
+  },350)
+
+
+}
+typing();
+
+
 
 
 
