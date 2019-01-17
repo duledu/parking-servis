@@ -129,6 +129,7 @@
 
 
 
+
   }
 }
 
@@ -556,5 +557,10 @@ position: relative;
   }
 .navbar-header{
   margin-bottom: 15px;
+}
+.navbar-brand{
+  p{
+    text-align: left; 
+  }
 }
 }

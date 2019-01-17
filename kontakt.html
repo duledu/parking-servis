@@ -68,7 +68,7 @@
             <h1>Kontakt :</h1>
             <p>Karađorđa Petrovića BB<br>17520 Bujanovac Srbija<br>br. telefona 017/651-000<br>email:<spen class="email"> parkingsmsbujanovac@gmail.com<spen></p>
             <h2>Pišite nam</h2>
-            <form>
+            <form  action= "mailto:parkingsmsbujanovac@gmail.com" method="POST"  enctype="text/plain">
               <div class="form-group">
                 <label for="UserName">Ime*</label>
                 <input class="form-control" type="text" placeholder="Ime" name="UserName" id="UserName" required>
@@ -81,7 +81,7 @@
                <label for="comment">Poruka*</label>
                <textarea class="form-control" rows="5" id="comment" required></textarea>
             </div>
-            <button type="button" class="btn btn-primary btn-lg">Pošalji</button>
+            <input type="submit" value="send" class="btn btn-primary btn-lg"></input>
 
             </form>
            </article>
