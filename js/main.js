@@ -30,3 +30,10 @@ $(".back-to-top1").click(function () {
   $("html, body").animate({scrollTop:0}, 1000)
 
 });
+
+
+$('.dada, .dada1, .dada2').on("mouseenter" , function () {
+  $(this).toggleClass('animated heartBeat')
+  return('dada');
+
+});
