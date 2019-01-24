@@ -32,8 +32,29 @@ $(".back-to-top1").click(function () {
 });
 
 
-$('.dada, .dada1, .dada2').on("mouseenter" , function () {
-  $(this).toggleClass('animated heartBeat')
-  return('dada');
+// $('.dada, .dada1, .dada2').on("mouseenter" , function () {
+//   $(this).toggleClass('animated heartBeat')
+//   return('dada');
+//
+// });
+ $('.mob').on('mouseenter' , function () {
+   $('.dada').toggleClass('animated heartBeat')
 
-});
+ });
+ $('.mob1').on('mouseenter' , function () {
+   $('.dada1').toggleClass('animated heartBeat')
+
+ });
+ $('.mob2').on('mouseenter' , function () {
+   $('.dada2').toggleClass('animated heartBeat')
+
+ });
+ $(document).scroll(function () {
+   var y = $(this).scrollTop();
+   if (y > 35) {
+     $('footer').addClass('animated slideInUp dalay-s4');
+
+   }else{
+     $('footer').removeClass();
+   }
+ });
