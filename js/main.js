@@ -1,3 +1,4 @@
+// brand text setInterval
 var brand = document.querySelector('.brandText');
 var text = "Bujanovac";
 
@@ -17,10 +18,11 @@ function typing() {
 
 }
 typing();
+// End brand text setInterval
 
 
 
-
+// back to top
 
 $(".back-to-top").click(function () {
   $("html, body").animate({scrollTop:0}, 1000)
@@ -31,12 +33,17 @@ $(".back-to-top1").click(function () {
 
 });
 
+// End back to top
+
 
 // $('.dada, .dada1, .dada2').on("mouseenter" , function () {
 //   $(this).toggleClass('animated heartBeat')
 //   return('dada');
 //
 // });
+
+
+//index icon animation
  $('.mob').on('mouseenter' , function () {
    $('.dada').toggleClass('animated heartBeat')
 
@@ -49,12 +56,18 @@ $(".back-to-top1").click(function () {
    $('.dada2').toggleClass('animated heartBeat')
 
  });
- $(document).scroll(function () {
-   var y = $(this).scrollTop();
-   if (y > 35) {
-     $('footer').addClass('animated slideInUp dalay-s4');
+ //End index icon animation
 
-   }else{
-     $('footer').removeClass();
-   }
- });
+
+
+ // footer animation slideUp
+  $(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 15) {
+      $('footer').addClass('animated slideInUp dalay-s4');
+
+    }else{
+      $('footer').removeClass();
+    }
+  });
+  //End footer animation slideUp
