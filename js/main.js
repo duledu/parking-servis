@@ -1,6 +1,7 @@
 // brand text setInterval
 var brand = document.querySelector('.brandText');
 var text = "Bujanovac";
+var winHeight;
 
 function typing() {
   var brandtext = text.split("");
@@ -19,6 +20,8 @@ function typing() {
 }
 typing();
 // End brand text setInterval
+
+
 
 
 
@@ -60,14 +63,19 @@ $(".back-to-top1").click(function () {
 
 
 
- // footer animation slideUp
-  $(document).scroll(function () {
-    var y = $(this).scrollTop();
-    if (y > 15) {
-      $('footer').addClass('animated slideInUp dalay-s4');
+//  footer animation slideUp
+ function footerSlideUp () {
 
-    }else{
-      $('footer').removeClass();
+
+  $(window).scroll(function () {
+     var y = $(this).scrollTop();
+     if (y > 15) {
+       $('footer').addClass('animated slideInUp dalay-s4');
+
+     }else{
+       $('footer').removeClass();
     }
-  });
-  //End footer animation slideUp
+   });
+ };
+ footerSlideUp();
+  //End
