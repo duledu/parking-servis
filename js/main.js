@@ -3,6 +3,8 @@ var brand = document.querySelector('.brandText');
 var text = "Bujanovac";
 var winHeight;
 
+var fromTop;
+
 function typing() {
   var brandtext = text.split("");
   var loop = setInterval(function () {
@@ -35,6 +37,10 @@ $(".back-to-top1").click(function () {
   $("html, body").animate({scrollTop:0}, 1000)
 
 });
+$(".back-to-topSMS").click(function () {
+  $("html, body").animate({scrollTop:0}, 1000)
+
+});
 
 // End back to top
 
@@ -64,18 +70,40 @@ $(".back-to-top1").click(function () {
 
 
 //  footer animation slideUp
- function footerSlideUp () {
+  function footerSlideUp () {
 
 
-  $(window).scroll(function () {
-     var y = $(this).scrollTop();
-     if (y > 15) {
-       $('footer').addClass('animated slideInUp dalay-s4');
+   $(window).scroll(function () {
+      var y = $(this).scrollTop();
 
-     }else{
-       $('footer').removeClass();
-    }
-   });
- };
- footerSlideUp();
+      if (y > 5) {
+        $('footer').addClass('animated slideInUp dalay-s4');
+
+      }else{
+        $('footer').removeClass('animated slideInUp dalay-s4');
+     }
+    });
+  };
+  footerSlideUp();
   //End
+
+// function sectionHeight() {
+//   winHeight = $(window).height();
+// $('#index').css('min-height', winHeight);
+// };
+// sectionHeight();
+//
+//
+// $(window).on('scroll', function () {
+//   fromTop = $(window).scrollTop();
+//
+//   console.log(fromTop);
+// if (fromTop > $('#index')) {
+//   $('footer').addClass('animated slideInUp dalay-s4');
+//
+// }
+// else{
+//   $('footer').removeClass('animated slideInUp dalay-s4');
+// }
+// })
+// console.log(index);

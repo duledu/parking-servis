@@ -1,0 +1,106 @@
+.sms{
+  position: relative;
+  h1{
+      font-family: 'Abril Fatface', cursive;
+      padding: 10px;
+    }
+    h3{
+      text-align: center;
+      font-family: 'Abril Fatface', cursive;
+      padding: 15px;
+    }
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+
+  }
+  #smsRow{
+    padding: 10px;
+    line-height:30px;
+    line-height: 45px;
+    font-size: 22px;
+
+  }
+
+
+
+    .peraDetlic{
+      display: inline-block;
+
+      h3{
+
+        .red{
+          color: red;
+        }
+        .yellow{
+          color: #e6e600;
+        }
+      }
+
+      .smsNum-holder{
+        margin: 0;
+        padding: 0;
+
+      .shortNum{
+    width: 150px;
+    height: 150px;
+    border: solid 2px gray;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+     }
+    }
+     }
+     .peraDetlicMob{
+       display: none;
+       .ToSMSNum-holder{
+         margin: 0;
+         padding: 0;
+
+       .shortNum{
+     width: 150px;
+     height: 150px;
+     border: solid 2px gray;
+     border-radius: 50%;
+     box-shadow: 0 0 10px;
+      }
+     }
+     h3{
+       font-size: 18px;
+       .red{
+         color: red;
+       }
+       .yellow{
+         color: #e6e600;
+       }
+     }
+     }
+     iframe{
+       padding: 10px;
+     }
+      }
+
+@media all and (max-width: 768px){
+  .sms{
+    .peraDetlic{
+      display: none;
+    }
+    .peraDetlicMob{
+      display: inline-block;
+    }
+    #smsRow{
+      padding: 8px;
+
+      font-size: 18px;
+
+    }
+  }
+
+}
+footer{
+  .back-to-topSMS{
+    right: 30px;
+    bottom: 125px;
+  }
+}
