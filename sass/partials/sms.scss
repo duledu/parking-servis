@@ -18,7 +18,6 @@
   }
   #smsRow{
     padding: 10px;
-    line-height:30px;
     line-height: 45px;
     font-size: 22px;
 
@@ -91,7 +90,7 @@
     }
     #smsRow{
       padding: 8px;
-
+      letter-spacing: normal;
       font-size: 18px;
 
     }
@@ -101,6 +100,6 @@
 footer{
   .back-to-topSMS{
     right: 30px;
-    bottom: 125px;
+    bottom: 130px;
   }
 }
