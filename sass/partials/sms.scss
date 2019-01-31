@@ -1,5 +1,6 @@
 .sms{
   position: relative;
+  padding-bottom: 15px;
   h1{
       font-family: 'Abril Fatface', cursive;
       padding: 10px;
@@ -10,18 +11,29 @@
       padding: 15px;
     }
   p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Judson', serif;
     font-size: 18px;
     font-weight: bolder;
     padding: 5px;
 
   }
-  #smsRow{
-    padding: 10px;
-    line-height: 45px;
-    font-size: 22px;
+  .tutorial{
+
+
+    #smsRow{
+      padding: 10px;
+      line-height: 45px;
+      font-size: 24px;
+      .numSms{
+        color:#ff0000;
+        text-shadow: 3px 3px #ffcccc;
+      }
+
+
+    }
 
   }
+
 
 
 
@@ -30,11 +42,20 @@
 
       h3{
 
+
         .red{
+          padding-bottom: 2px;
           color: red;
+          text-shadow: 3px 3px #ffcccc;
+          border-bottom: 2px solid #000;
+
+
         }
         .yellow{
+          padding-bottom: 2px;
           color: #e6e600;
+          text-shadow: 2px 2px #ffff1a;
+          border-bottom: 2px solid #000;
         }
       }
 
@@ -75,9 +96,18 @@
        }
      }
      }
-     iframe{
-       padding: 10px;
+     .video-holder{
+
+       border: solid 3px #001a33;
+        box-shadow: 5px 10px;
      }
+     iframe{
+
+
+
+
+     }
+
       }
 
 @media all and (max-width: 768px){
