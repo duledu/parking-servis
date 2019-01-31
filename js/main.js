@@ -2,6 +2,7 @@
 var brand = document.querySelector('.brandText');
 var text = "Bujanovac";
 var winHeight;
+var indexHeight;
 
 var fromTop;
 
@@ -107,3 +108,14 @@ $(".back-to-topSMS").click(function () {
 // }
 // })
 // console.log(index);
+
+// height of window index
+
+function indexHeightwindow() {
+  indexHeight = $(window).height();
+  console.log(indexHeight);
+
+  $('#index').css('min-height', indexHeight);
+
+};
+ indexHeightwindow();
