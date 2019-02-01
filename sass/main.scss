@@ -141,7 +141,7 @@
 // section
 
 .showcase{
-  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://drive.google.com/uc?id=1HfYMl4TecNy13cv5z4--cYH5u_NS5FU3) no-repeat 0 -400px;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://drive.google.com/uc?id=1HfYMl4TecNy13cv5z4--cYH5u_NS5FU3") no-repeat 0 -400px;
 
 h1{
   font-family: 'Abril Fatface', cursive;
@@ -166,8 +166,8 @@ p{
 //pocetna
 
 body{
-    background-image:url(https://drive.google.com/uc?id=14QkMExhWPTVnIr74gDlPQ0tYuCorQaMx);
-    background-size: cover;
+    background:url("https://drive.google.com/uc?id=14QkMExhWPTVnIr74gDlPQ0tYuCorQaMx");
+    background-size: no-repeat;
 }
 .container{
   margin-top: 25px;

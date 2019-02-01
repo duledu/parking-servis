@@ -114,6 +114,7 @@ $(".back-to-topSMS").click(function () {
 function indexHeightwindow() {
   indexHeight = $(window).height();
   console.log(indexHeight);
+  
 
   $('#index').css('min-height', indexHeight);
 
