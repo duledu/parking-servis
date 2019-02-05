@@ -111,12 +111,12 @@ $(".back-to-topSMS").click(function () {
 
 // height of window index
 
-function indexHeightwindow() {
-  indexHeight = $(window).height();
-  console.log(indexHeight);
-  
-
-  $('#index').css('min-height', indexHeight);
-
-};
- indexHeightwindow();
+// function indexHeightwindow() {
+//   indexHeight = $(window).height();
+//   console.log(indexHeight);
+//
+//
+//   $('#index').css('min-height', indexHeight);
+//
+// };
+//  indexHeightwindow();
