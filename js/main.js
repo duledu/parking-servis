@@ -1,4 +1,43 @@
+ var imgIndex = document.getElementsByTagName('img')[0];
+ var imgIndex1 = document.getElementsByTagName('img')[1];
+ var imgIndex2 = document.getElementsByTagName('img')[2];
+
+
+ startRotate();
+
+ function startRotate() {
+   setTimeout(function () {
+     $('.mob').addClass('animated flip');
+
+   },3000)
+   setTimeout(function () {
+     $(".mob1").addClass('animated flip');
+
+   },4000)
+   setTimeout(function () {
+     $('.mob2').addClass('animated flip');
+
+   },5000)
+
+    setTimeout(function () {
+      $('.mob').removeClass('animated flip');
+      $('.mob1').removeClass('animated flip');
+      $('.mob2').removeClass('animated flip');
+
+
+    },7000)
+
+    setTimeout(startRotate,9000)
+
+ };
+
+
+
+
+
+
 // brand text setInterval
+
 var brand = document.querySelector('.brandText');
 var text = "Bujanovac";
 var winHeight;

@@ -140,9 +140,7 @@
   }
 
 }
-footer{
-  .back-to-topSMS{
-    right: 30px;
-    bottom: 130px;
-  }
+footer .back-to-top, footer .back-to-top1, footer .back-to-topSMS{
+  top: 30px;
+  bottom: 125px;
 }
