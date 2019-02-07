@@ -66,22 +66,24 @@
 
            <article>
             <h1>Kontakt :</h1>
-            <p>Karađorđa Petrovića BB<br>17520 Bujanovac Srbija<br>br. telefona 017/651-000<br>email:<spen class="email"> parkingsmsbujanovac@gmail.com<spen></p>
+            <p>Karađorđa Petrovića BB<br>17520 Bujanovac Srbija<br>br. telefona :<a href="tel:+38117651000"> +381 17 651 000</a><br>email:<spen class="email"> parkingsmsbujanovac@gmail.com<spen></p>
             <h2>Pišite nam</h2>
-            <form  action= "mailto:parkingsmsbujanovac@gmail.com" method="POST"  enctype="text/plain">
+            <form id="contact-form">
               <div class="form-group">
                 <label for="UserName">Ime*</label>
-                <input class="form-control" type="text" placeholder="Ime" name="UserName" id="UserName" required>
+                <input type="text" name="UserName" id="UserName" required class="form-control"
+                placeholder="Ime">
              </div>
              <div class="form-group">
                <label for="UserEmail">E-mail*</label>
-               <input class="form-control" type="email" placeholder="email" name="UserEmail" id="UserEmail" required>
+               <input type="email" name="UserEmail" id="UserEmail" required class="form-control"
+               placeholder="email">
              </div>
              <div class="form-group">
                <label for="comment">Poruka*</label>
-               <textarea class="form-control" rows="5" id="comment" required></textarea>
+               <textarea name="UserMessage" id="UserMessage" required class="form-control"></textarea>
             </div>
-            <input type="submit" value="send" class="btn btn-primary btn-lg"></input>
+            <button class="btn btn-primary btn-lg form-btn">Pošalji</button>
 
             </form>
            </article>
@@ -123,10 +125,13 @@
         </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_sr_lat.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>

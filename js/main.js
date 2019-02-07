@@ -159,3 +159,10 @@ $(".back-to-topSMS").click(function () {
 //
 // };
 //  indexHeightwindow();
+
+
+
+// Plugin validates
+
+
+$('#contact-form').validate();
