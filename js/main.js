@@ -125,6 +125,8 @@ $(".back-to-topSMS").click(function () {
     });
   };
   footerSlideUp();
+
+  $('#contact-form').validate();
   //End
 
 // function sectionHeight() {
@@ -163,6 +165,3 @@ $(".back-to-topSMS").click(function () {
 
 
 // Plugin validates
-
-
-$('#contact-form').validate();

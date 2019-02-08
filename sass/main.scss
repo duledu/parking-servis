@@ -168,9 +168,7 @@ p{
 body{
     background:url("https://drive.google.com/uc?id=14QkMExhWPTVnIr74gDlPQ0tYuCorQaMx");
     background-size: no-repeat;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+
 }
 .container{
   margin-top: 25px;
@@ -178,6 +176,8 @@ body{
 
 .pocetna{
   text-align: center;
+
+
   .mob{
     width: 90px;
     height: 120;
@@ -299,6 +299,7 @@ body{
 .kontakt{
   margin-bottom: 150px;
 
+
   h1{
     font-size: 36px;
     font-family: 'Abril Fatface', cursive;
@@ -323,7 +324,7 @@ body{
 
   }
   .error{
-    color: red; 
+    color: red;
   }
 
 }
@@ -444,7 +445,7 @@ body{
 
 footer {
 
-position: relative;
+    position: relative;
     padding: 20px;
     margin-top: 0px;
     color: #ffffff;
@@ -498,6 +499,9 @@ position: relative;
    @extend .back-to-top;
    display: none;
  }
+ .main-footer{
+
+ }
 }
 
 
@@ -542,4 +546,15 @@ position: relative;
     text-align: left;
   }
 }
+}
+@media all and (min-width: 1920px){
+  .pocetna{
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+  }
+  .main-footer{
+    margin-top: 20px;
+
+  }
 }
