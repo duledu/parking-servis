@@ -548,13 +548,19 @@ footer {
 }
 }
 @media all and (min-width: 1920px){
+  .showcase {
+    p{
+      margin-bottom: 70px;
+    }
+  }
+
   .pocetna{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 110px;
+    margin-bottom: 110px;
 
   }
   .main-footer{
-    margin-top: 20px;
 
   }
+  
 }
