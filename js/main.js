@@ -106,8 +106,14 @@ $(".back-to-topSMS").click(function () {
 
  });
  //End index icon animation
+// popUp
 
+$('#close').click(function () {
+  $('.popUp').css('display', 'none');
 
+})
+
+//End popUp
 
 //  footer animation slideUp
   function footerSlideUp () {
@@ -166,9 +172,3 @@ $(".back-to-topSMS").click(function () {
 
 // Plugin validates
  // popUp
-
-
- $('#close').click(function () {
-   $('.popUp').addClass('hide');
-
- })
