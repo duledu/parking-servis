@@ -136,7 +136,59 @@
 
 
 
+#index{
+  position: relative;
+  .hide{
+    display: none;
+  }
 
+.popUp{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+
+
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+
+  .popUp-content{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    h3{
+      font-family: 'Abril Fatface', cursive;
+    }
+    img{
+      margin-top: 25px;
+      width: 300px;
+      height: 150px;
+
+
+    }
+    #close{
+      cursor: pointer;
+      font-size: 42px;
+      padding: 0px;
+      position: absolute;
+      top: 0;
+      right: 14px;
+      transform: rotate(45deg);
+
+    }
+
+
+  }
+
+
+}
 
 // section
 
@@ -160,7 +212,9 @@ p{
   margin-top: 50px;
   color: white;
 }
+
 }
+ }
 
 
 //pocetna
@@ -168,8 +222,10 @@ p{
 body{
     background:url("https://drive.google.com/uc?id=14QkMExhWPTVnIr74gDlPQ0tYuCorQaMx");
     background-size: no-repeat;
+    position: relative;
 
 }
+
 .container{
   margin-top: 25px;
 
@@ -562,5 +618,5 @@ footer {
   .main-footer{
 
   }
-  
+
 }

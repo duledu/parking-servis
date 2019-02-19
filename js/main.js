@@ -165,3 +165,10 @@ $(".back-to-topSMS").click(function () {
 
 
 // Plugin validates
+ // popUp
+
+
+ $('#close').click(function () {
+   $('.popUp').addClass('hide');
+
+ })
