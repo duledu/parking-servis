@@ -110,18 +110,11 @@ $(".back-to-topSMS").click(function () {
  //End index icon animation
 // popUp
 
-$(document).ready(function () {
-  const visit = localStorage.getItem('firstVisit');
-  if (!visit) {
-    localStorage.setItem('firstVisit', true);
-    $('.popUp').css('display', 'flex');
-  }else{
-    $('.popUp').hide();
-  }
+
   $('#close').click(function () {
     $('.popUp').hide();
   });
-});
+
 
 
 //End popUp
