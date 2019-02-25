@@ -1,0 +1,85 @@
+footer {
+
+    position: relative;
+    padding: 20px;
+    margin-top: 0px;
+    color: #ffffff;
+    background: linear-gradient(to right, #000033, #4da6ff);
+    text-align: left;
+    border-top: #ff5c33 3px solid;
+    .ds{
+     font-family: 'Marck Script', cursive;
+     font-size: 18px;
+    }
+    .dev-info{
+      float: right;
+    }
+    .footer-info{
+      position: relative;
+
+      a{
+        color: #ff5c33;
+        line-height: 30px;
+        font-size: 18px;
+
+
+      }
+
+
+    }
+    .back-to-top, .back-to-topSMS{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-image: url("../img/back-to-top-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    position: absolute;
+    right: 60px;
+    bottom: 100px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    &:hover{
+      background-image: url("../img/back-to-top-blue.png");
+      background-color: white;
+    }
+
+ }
+ .back-to-top1{
+   @extend .back-to-top;
+   display: none;
+ }
+ .main-footer{
+
+ }
+}
+
+
+
+
+@media all and (max-width: 400px){
+  footer{
+    .back-to-top{
+      right: 30px;
+      bottom: 170px;
+    }
+
+    .back-to-top1{
+      display: inline-block;
+    }
+  }
+}
+@media all and (max-width: 768px){
+
+  footer{
+    .back-to-top1{
+      display: inline-block;
+    }
+  }
+
+}

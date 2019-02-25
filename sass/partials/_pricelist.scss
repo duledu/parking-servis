@@ -1,0 +1,68 @@
+.cenovnik{
+  position: relative;
+  table{
+
+            border: solid 2px black;
+            color: black;
+            box-shadow: 0 0 10px;
+
+            thead{
+              tr{
+                background: linear-gradient(to right, #000033, #4da6ff);
+                color: white;
+                font-size: 16px;
+                padding: 5px;
+              }
+            }
+            th{
+              text-align: center;
+
+            }
+
+          td{
+            border: solid 1px black;
+            text-align: center;
+            font-size: 16px;
+            padding: 2px;
+
+          th{
+           boreder: solid 1px black;
+
+
+           tr{
+             boreder: solid 1px black;
+
+
+             }
+           }
+          }
+         }
+
+         tr{
+           &:nth-child(even){
+             background-color: #ccccff;
+         }
+         .crvena{
+           text-align: left;
+         }
+         .zuta{
+           text-align: left;
+         }
+       }
+       p{
+         margin-top: 30px;
+         font-weight: 600;
+         font-size: 18px;
+         font-family: 'Judson', serif;
+       }
+
+       .ppk{
+         width: 360px;
+         height: 420px;
+         box-shadow: 0 0 6px;
+       }
+
+
+
+
+ }

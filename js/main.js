@@ -3,6 +3,8 @@
  var imgIndex2 = document.getElementsByTagName('img')[2];
 
 
+
+
  startRotate();
 
  function startRotate() {
@@ -108,10 +110,19 @@ $(".back-to-topSMS").click(function () {
  //End index icon animation
 // popUp
 
-$('#close').click(function () {
-  $('.popUp').css('display', 'none');
+$(document).ready(function () {
+  const visit = localStorage.getItem('firstVisit');
+  if (!visit) {
+    localStorage.setItem('firstVisit', true);
+    $('.popUp').css('display', 'flex');
+  }else{
+    $('.popUp').hide();
+  }
+  $('#close').click(function () {
+    $('.popUp').hide();
+  });
+});
 
-})
 
 //End popUp
 
@@ -132,7 +143,7 @@ $('#close').click(function () {
   };
   footerSlideUp();
 
-  $('#contact-form').validate();
+$('#contact-form').length && $('#contact-form').validate();
   //End
 
 // function sectionHeight() {
