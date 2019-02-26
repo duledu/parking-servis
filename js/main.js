@@ -3,7 +3,7 @@
  var imgIndex2 = document.getElementsByTagName('img')[2];
 
 
-
+// Index icon animate
 
  startRotate();
 
@@ -33,7 +33,7 @@
 
  };
 
-
+// Index icon animate End
 
 
 
@@ -87,14 +87,10 @@ $(".back-to-topSMS").click(function () {
 // End back to top
 
 
-// $('.dada, .dada1, .dada2').on("mouseenter" , function () {
-//   $(this).toggleClass('animated heartBeat')
-//   return('dada');
-//
-// });
 
 
-//index icon animation
+
+//Second index icon animation
  $('.mob').on('mouseenter' , function () {
    $('.dada').toggleClass('animated heartBeat')
 
@@ -107,8 +103,9 @@ $(".back-to-topSMS").click(function () {
    $('.dada2').toggleClass('animated heartBeat')
 
  });
- //End index icon animation
-// popUp
+ //End of Second index icon animation
+
+// PopUp
 
 
   $('#close').click(function () {
@@ -136,43 +133,11 @@ $(".back-to-topSMS").click(function () {
   };
   footerSlideUp();
 
-$('#contact-form').length && $('#contact-form').validate();
-  //End
 
-// function sectionHeight() {
-//   winHeight = $(window).height();
-// $('#index').css('min-height', winHeight);
-// };
-// sectionHeight();
-//
-//
-// $(window).on('scroll', function () {
-//   fromTop = $(window).scrollTop();
-//
-//   console.log(fromTop);
-// if (fromTop > $('#index')) {
-//   $('footer').addClass('animated slideInUp dalay-s4');
-//
-// }
-// else{
-//   $('footer').removeClass('animated slideInUp dalay-s4');
-// }
-// })
-// console.log(index);
+  //End footer animation slideUp
 
-// height of window index
+  // Contact form validation
 
-// function indexHeightwindow() {
-//   indexHeight = $(window).height();
-//   console.log(indexHeight);
-//
-//
-//   $('#index').css('min-height', indexHeight);
-//
-// };
-//  indexHeightwindow();
+  $('#contact-form').length && $('#contact-form').validate();
 
-
-
-// Plugin validates
- // popUp
+    //End Contact form validation
