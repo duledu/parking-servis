@@ -141,3 +141,16 @@ $(".back-to-topSMS").click(function () {
   $('#contact-form').length && $('#contact-form').validate();
 
     //End Contact form validation
+
+    // Contact validation console
+
+
+
+  $('#send').click(function (e) {
+    e.preventDefault();
+    var data = $('#contact-form').serializeArray();
+
+
+  });
+
+  // End Contact validation console
