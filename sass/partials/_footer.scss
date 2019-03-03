@@ -17,6 +17,7 @@ footer {
     .footer-info{
       position: relative;
 
+
       a{
         color: #ff5c33;
         line-height: 30px;
@@ -64,6 +65,7 @@ footer {
 
 @media all and (max-width: 400px){
   footer{
+
     .back-to-top{
       right: 30px;
       bottom: 170px;
@@ -80,6 +82,26 @@ footer {
     .back-to-top1{
       display: inline-block;
     }
+    .mailto_PC{
+      display: none;
+    }
+    .mailto_mobile{
+      display: inline-block;
+    }
+
   }
 
+}
+@media all and (min-width: 768px){
+  footer{
+    .footer-info{
+      .mailto_PC{
+        display: inline-block;
+      }
+      .mailto_mobile{
+        display: none;
+      }
+
+    }
+  }
 }
