@@ -112,6 +112,15 @@ $(".back-to-topSMS").click(function () {
     $('.popUp').hide();
   });
 
+  // RESTART BANERA
+  var bannerHolder;
+  var newOne;
+  setInterval(function() {
+  bannerHolder = document.getElementById("one-banner");
+  newOne = bannerHolder.cloneNode(true);
+  bannerHolder.parentNode.replaceChild(newOne, bannerHolder);
+  }, 9000);
+  //END RESTART BANERA
 
 
 //End popUp

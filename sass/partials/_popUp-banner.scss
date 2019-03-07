@@ -1,0 +1,162 @@
+
+
+
+
+#one-banner{
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 500px;
+  background: url('https://drive.google.com/uc?id=1O5wAbJZzIC2bssP59TEnTa2p3OTRQsI3');
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  // opacity: 0;
+  // -webkit-animation: 9s fade;
+  //         animation: 9s fade;
+  @-webkit-keyframes fade {
+    0%{opacity:0}
+    5%{opacity: 1}
+    95%{opacity: 1}
+    100%{opacity: 0}
+  }
+  @keyframes fade {
+    0%{opacity:0}
+    5%{opacity: 1}
+    95%{opacity: 1}
+    100%{opacity: 0}
+  }
+  .logo-pattern{
+    margin: 0;
+    width: 250px;
+    height: 40px;
+    background: url("https://drive.google.com/uc?id=1gb40JmvXMUdsg9-R4qtkdghUByjaaMkT");
+    background-size: no-repeat;
+    position: absolute;
+    left: 25px;
+
+
+
+  }
+
+  .logo{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 40px 20px 0;
+
+  }
+  .text-1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    font-size: 23px;
+    opacity: 0;
+    -webkit-animation: 3s 1.5s text-1;
+            animation: 3s 1.5s text-1;
+
+    @-webkit-keyframes text-1{
+      0%{opacity: 0}
+      30%{opacity: 1}
+      80%{opacity: 1}
+      100%{opacity: 0}
+
+    }
+
+    @keyframes text-1{
+      0%{opacity: 0}
+      30%{opacity: 1}
+      80%{opacity: 1}
+      100%{opacity: 0}
+
+    }
+
+
+
+
+
+  }
+  .text-2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 130px;
+    left: 28px;
+    font-size: 23px;
+    opacity: 0;
+    -webkit-animation: 3s 4.5s forwards text-2;
+            animation: 3s 4.5s forwards text-2;
+    span{
+      font-size: 36px;
+
+    }
+    @-webkit-keyframes text-2{
+      0%{opacity: 0}
+      30%{opacity: 1}
+      100%{opacity: 1}
+
+    }
+    @keyframes text-2{
+      0%{opacity: 0}
+      30%{opacity: 1}
+      100%{opacity: 1}
+
+    }
+  }
+
+  .window{
+    width: 165px;
+    height: 220px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    background-color: #0C1B27;
+    overflow: hidden;
+
+    .window-frame{
+      position: absolute;
+      z-index: 2;
+    }
+    .snow{
+      width: 120px;
+      height: 160px;
+      position: absolute;
+      top:10px;
+      left:20px;
+      z-index: 1;
+      -webkit-transform: translate(0, -30%);
+              transform: translate(0, -30%);
+      -webkit-animation: 9s linear snow;
+              animation: 9s linear snow;
+      @-webkit-keyframes snow{
+        0%{-webkit-transform: translate(0, -30%);transform: translate(0, -30%)}
+        20%{-webkit-transform: translate(-5%, -24%);transform: translate(-5%, -24%)}
+        40%{-webkit-transform: translate(0, -18%);transform: translate(0, -18%)}
+        60%{-webkit-transform: translate(-5, -10%);transform: translate(-5, -10%)}
+        80%{-webkit-transform: translate(0, -5%);transform: translate(0, -5%)}
+        100%{-webkit-transform: translate(0, 0);transform: translate(0, 0)}
+
+      }
+      @keyframes snow{
+        0%{-webkit-transform: translate(0, -30%);transform: translate(0, -30%)}
+        20%{-webkit-transform: translate(-5%, -24%);transform: translate(-5%, -24%)}
+        40%{-webkit-transform: translate(0, -18%);transform: translate(0, -18%)}
+        60%{-webkit-transform: translate(-5, -10%);transform: translate(-5, -10%)}
+        80%{-webkit-transform: translate(0, -5%);transform: translate(0, -5%)}
+        100%{-webkit-transform: translate(0, 0);transform: translate(0, 0)}
+
+      }
+    }
+
+  }
+
+
+}
