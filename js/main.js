@@ -121,7 +121,13 @@ $(".back-to-topSMS").click(function () {
   bannerHolder.parentNode.replaceChild(newOne, bannerHolder);
   }, 9000);
   //END RESTART BANERA
-
+// function popUpHeight() {
+//   bannerPopup = $(window).height();
+//   $(".popUp").css("min-height",bannerPopup);
+//
+//
+// }
+// popUpHeight();
 
 //End popUp
 
