@@ -194,9 +194,15 @@
   box-shadow: 0 0 10px;
   margin-bottom: 25px;
 
+  .weather{
+    width: 400px;
+    float: right;
+
+  }
+
 h1{
   font-family: 'Abril Fatface', cursive;
-  margin-top: 100px;
+  margin-top: 10px;
   font-size: 50px;
   font-weight: bolder;
   text-align: center;
@@ -260,6 +266,12 @@ p{
 
    }
  }
+ // Wearher
+
+
+
+
+ //END of Weather
 
 //ALL FOR INDEX @media query
 
