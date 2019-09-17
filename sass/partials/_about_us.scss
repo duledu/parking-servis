@@ -1,3 +1,20 @@
+.showcase{
+  img{
+    width: 100%;
+  }
+  .carousel-caption{
+    p{
+      font-family: 'Abril Fatface', cursive;
+      font-size: 30px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      //border-radius: 30%;
+      box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.80);
+
+
+    }
+  }
+}
 .o-nama{
   background: linear-gradient(to right, #000033, #4da6ff);
 
@@ -24,7 +41,7 @@
     .container-fluid{
       .row{
         .tabela{
-        
+
 
         }
       }
