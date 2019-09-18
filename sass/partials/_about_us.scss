@@ -5,7 +5,7 @@
   .carousel-caption{
     p{
       font-family: 'Abril Fatface', cursive;
-      font-size: 30px;
+      font-size: 33px;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.5);
       //border-radius: 30%;
@@ -55,6 +55,7 @@
       margin-left: 30px;
       margin-top: 10px;
 
+
       th{
         text-align: center;
       }
@@ -65,12 +66,13 @@
       margin-top: 5px;
       margin-bottom: 20px;
       padding: 2px;
+      text-decoration: none;
 
     }
 
     }
     .crvena{
-      background-color: red;
+      background-color:  #ff0000;
     }
     .zuta{
       background-color: yellow;
@@ -83,13 +85,53 @@
     margin: 10px 15px 10px 0px;
 
     }
+    .mapa{
+      h4{
+        color: white;
+        font-family: 'Judson', serif;
+      }
     .mapaa{
       cursor: zoom-in;
+
     }
+     }
 
 
 
 
 
   }
+}
+@media all and (max-width: 992px){
+
+  .showcase{
+
+    .carousel-caption{
+      p{
+
+        font-size: 20px;
+
+
+
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 600px){
+
+  .showcase{
+
+    .carousel-caption{
+      p{
+
+        font-size: 15px;
+
+
+
+      }
+    }
+  }
+
 }
