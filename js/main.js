@@ -169,3 +169,29 @@ $(".back-to-topSMS").click(function () {
   });
 
   // End Contact validation console
+
+
+  // o nama 2
+
+//   $('.container').scroll(function () {
+//     var bottom_of_container = $('.container').scrollTop() + $('.container').height();
+//     $('.content').each(function (i) {
+//         var bottom_of_object = $(this).offset().top + $(this).outerHeight() + 500;
+//         if (bottom_of_container > bottom_of_object) {
+//             if ($('.content').eq(0).html() == $(this).html()) {
+//                 $('.image').src = 'http://dummyimage.com/600x400/000/fff';
+//                 $('.image').css('background-color', 'red');
+//             }
+//             if ($('.content').eq(1).html() == $(this).html()) {
+//                 $('.image').src = 'http://dummyimage.com/750x486/000/AAA.png&text=2';
+//                 $('.image').css('background-color', 'blue');
+//             }
+//             if ($('.content').eq(2).html() == $(this).html()) {
+//                 $('.image').src = 'http://dummyimage.com/750x486/000/AAA.png&text=3';
+//                 $('.image').css('background-color', 'black');
+//             }
+//         }
+//     });
+// });
+
+// o nama 2 end
